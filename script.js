@@ -16,7 +16,7 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         let position = $(this).scrollTop();
-        console.log(position);
+
         if (position >= 550){
             $('.camera-img').addClass('fromLeft');
             $('.mission-text').addClass('fromRight');
@@ -48,6 +48,20 @@ $(document).ready(function () {
 
         $(this).addClass('active-item').siblings().removeClass('active-item');
 
+    });
+
+    $(window).scroll(function () {
+        let position = $(this).scrollTop();
+        console.log(position);
+        if (position >= 4200){
+            $('.card-1').addClass('moveFromLeft');
+            $('.card-2').addClass('moveFromBottom');
+            $('.card-3').addClass('moveFromRight');
+        } else {
+            $('.card-1').removeClass('moveFromLeft');
+            $('.card-2').removeClass('moveFromBottom');
+            $('.card-3').removeClass('moveFromRight');
+        }
     });
 
 });
