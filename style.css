@@ -2,6 +2,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/*utility*/
+.text-primary{
+    color: #70aed2 !important;
+}
+/*end of utility*/
+
 /*header*/
 header{
     height: 100vh;
@@ -282,7 +288,17 @@ header{
 }
 /*end of contact*/
 
-
+/*footer*/
+.footer-link{
+    color: #eee;
+    font-size: 13px;
+    transition: all .3s;
+}
+.footer-link:hover{
+    color: #70aed2;
+    text-decoration: none;
+}
+/*enf of footer*/
 
 
 
