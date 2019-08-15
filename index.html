@@ -421,13 +421,28 @@
         <!--end of pricing-->
 
         <!--contact-->
-        <section>
+        <section class="contact p-5">
             <div class="container-fluid">
-                <div class="row text-muted text-center">
-                    <div class="col m-4">
-                        <h1 class="display-4 mb-4">Contact</h1>
-                        <div class="underline-dark mb-4"></div>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eaque iure odit qui voluptas voluptatem!</p>
+                <div class="row">
+                    <div class="col-lg-5 pb-4">
+                        <h3 class="display-4 mb-4 text-white">Get In Touch</h3>
+                        <form class="contact-form">
+                            <div class="form-group py-4">
+                                <input type="text" class="form-control my-2 p-2 input" id="name" placeholder="Name">
+                                <label for="name" class="label">Name</label>
+                            </div>
+                            <div class="form-group py-4">
+                                <input type="email" class="form-control my-2 p-2 input" id="email" placeholder="Email Address">
+                                <label for="email" class="label">Email Address</label>
+                            </div>
+                            <div class="form-group py-4 my-4">
+                                <input type="checkbox" checked id="check">
+                                <label for="check" class="text-white">Send Announcements</label>
+                            </div>
+                            <button type="submit" class="btn btn-block p-2 font-weight-bold text-uppercase submit-button">
+                                Subscribe
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
